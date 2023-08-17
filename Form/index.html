@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BTVN: BÙI VIỆT HOÀNG</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>đăng kí thành viên</h1>
+      <div class="form-input">
+        <form action="/action_page.php">
+          <span class="name-input">Mã Sinh Viên :</span> <br />
+          <input class="custom-input" type="text" />
+          <span class="name-input">Họ Và Tên :</span> <br />
+          <input class="custom-input" type="text" />
+          <span class="name-input">Email :</span> <br />
+          <input class="custom-input" type="email" />
+          <span class="name-input">Giới tính :</span> <br />
+          <div class="box box1">
+            <label><input name="gender" type="radio" />Nam </label>
+            <label><input name="gender" type="radio" />Nữ</label>
+          </div>
+          <span class="name-input">Sở Thích :</span> <br />
+          <div class="box box 2">
+            <input name="gender" type="checkbox" />Đọc sách
+            <input name="gender" type="checkbox" />Du Lịch
+            <input name="gender" type="checkbox" />Âm Nhạc
+            <input name="gender" type="checkbox" />Khác
+          </div>
+          <span class="name-input">Quốc Tịch :</span> <br />
+          <select class="custom-input" name="" id="">
+            <option value="" selected>Chọn Quốc Tịch</option>
+            <option value="1">Việt Nam</option>
+            <option value="2">Hàn Quốc</option>
+            <option value="3">Triều Tiên</option>
+          </select>
+          <span class="name-input">Ghi Chú :</span> <br />
+          <textarea
+            class="custom-textarea"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+        </form>
+
+        <button>Đăng ký</button>
+      </div>
+    </div>
+  </body>
+</html>

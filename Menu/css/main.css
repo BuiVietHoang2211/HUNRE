@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+}
+
+.wrapper {
+    max-width: 1070px;
+    margin: 0 auto;
+    background-color: #F6635C;
+}
+
+.menu {
+    display: flex;
+    gap: 0 25px;
+}
+
+.menu li {
+    position: relative;
+    list-style: none;
+    padding: 20px;
+}
+.menu li:hover {
+    background-color: #ccc;
+}
+
+.menu > li:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu {
+    position: absolute;
+    display: none;
+    background: #40F8FF;
+    left: 0;
+    top: 100%;
+}
+
+
